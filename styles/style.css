@@ -28,6 +28,8 @@
     border-bottom: 1px solid black;
     color: transparent;
     padding: 1em;
+    position: fixed;
+    z-index: 20;
 }
 nav{
     display: flex;
@@ -52,6 +54,9 @@ nav{
     display: flex;
     align-items: center;
 }
+.nav .menu-label img{
+    width: 2em;
+}
 
 
 
@@ -62,21 +67,23 @@ nav{
     background-position: center;
     width: 100%;
     display: flex;
-    padding: 10%;
+    padding: 6em;
+    
    
     
 }
 
 .text_hero{
     margin: auto;
-    margin-top: 4%;
+    
     margin-bottom: 4%;
     width: 80%;
     display: flex;
-    gap: 5em;
+    gap: 4em;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    
+    
 
 }
 .text_hero h1{
@@ -86,11 +93,13 @@ nav{
     color: white; 
     text-shadow: 0px 4px 0px #000000;
     font-size: 250%;
+    
 }
 .text_hero p{
     align-self: center;
     color: aliceblue;
-    font-size: 1.5em;
+    font-size: 1em;
+    text-align: center;
     line-height: 120%;
     font-weight: 400;
     text-shadow: 4px 4px 4px #000000;
@@ -133,15 +142,20 @@ nav{
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    align-content: center;
+    gap: 5em;
+    
+   
     
     
 }
 #products h2{
     text-align: center;
     width: 100%;
-    padding-top: 3em;
     font-size: 2em;
+    
+   
+
 }
 .cont{
     width: 20em;

@@ -1,8 +1,9 @@
 html{
     scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+    scroll-padding-top: 40px;
 }
-.overlay{
-    /* From https://css.glass */
+/*overlay{
     background: rgba(255, 255, 255, 0.04);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -15,7 +16,7 @@ html{
     left: 0px;
     z-index: 9;
     display: none;
-}
+}*/
 #menu-toggle:checked ~ .overlay{
     display: block;
 }
